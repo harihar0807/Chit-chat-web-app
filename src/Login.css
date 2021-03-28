@@ -1,0 +1,30 @@
+.Login{
+       background-color: #dfd9d9;
+       height: 100vh;
+       width: 100vw;
+       display: grid;
+       place-items: center;
+}
+
+.Login-container{
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(247, 244, 244);
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 3px;
+
+}
+.Login-container >img{
+    object-fit: contain;
+    height: 200px;
+    margin-bottom: 40px;
+}
+.Login-container > button {
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: rgb(121, 121, 121);
+    color: white;
+}
+.Login-container > button:hover{
+    background-color: rgb(29, 28, 28);
+}
